@@ -1,7 +1,7 @@
 from lxml import etree
 
 # 解析XML文件
-tree = etree.parse('1.xml')
+tree = etree.parse('CnGal-Bilibili.xml')
 root = tree.getroot()
 
 # 获取需要排序的节点列表
